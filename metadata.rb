@@ -1,9 +1,9 @@
 name 'install_mysql'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Benny Chandra'
+maintainer_email 'webmaster@sunsetmood.web.id'
 license 'All Rights Reserved'
-description 'Installs/Configures install_mysql'
-version '0.1.0'
+description 'Install MySQL Server'
+version '0.1.1'
 chef_version '>= 16.0'
 
 # The `issues_url` points to the location where issues for this cookbook are
@@ -17,3 +17,5 @@ chef_version '>= 16.0'
 # a Supermarket.
 #
 # source_url 'https://github.com/<insert_org_here>/install_mysql'
+
+depends 'mysql'
